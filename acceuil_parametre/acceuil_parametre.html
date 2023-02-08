@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="photos/logo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="./acceuil_parametre.css">
+    <title>Paramètre</title>
+</head>
+<body class="d-flex justify-content-center">
+    <div class="container-fuild d-flex flex-row contenu">
+        <div class="container-fuild d-flex nav_bar position-fixed top-0 left-0">
+            <div class="container-fuild contenu_logo">
+                <img src="../photos/logo 1.png" alt="logo" class="logo">
+            </div>
+        </div>
+        <div class="container-fuild contentPhoto">
+            <div class="photo1">
+                <form>
+                    <div class="container-fuild contenu_recherche_aide d-flex align-items-center justify-content-end">
+                        <div class="container-fuild contenu_aide d-flex justify-content-between align-items-center me-5 pe-2">
+                            <div class="d-flex contentCercle justify-content-around">
+                                <img src="../photos/aide.png" alt="aide" class="cercle">
+                                <p class="text_aide">Aides</p>
+                            </div>
+                            <a href="../index.html"><img src="../photos/deconnecter.png" alt="deconnecter" class="deconnecter"></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container-fuild contentImformation d-flex justify-content-between align-items-center">
+                <div class="contentArrow">
+                    <a href="../acceuil/acceuil.html"><img src="../photos/left arrow.png" alt="arrow"></a>
+                </div>
+                <p class="pt-2">Paramètre</p>
+                <div class="vide"></div>
+            </div>
+            <div class="container-fuild contentInforms d-flex flex-wrap justify-content-center align-content-start">
+                <p class="ps-4 motherP">Insertion</p>
+                <div class="contentInsertion">
+                    <div class="contentHeadingInsertion d-flex">
+                        <div class="pI">
+                            <p class="ms-4 mt-4 Cycle">Cycle</p>
+                            <div class="line ms-4"></div>
+                        </div>
+                        <div class="pII d-flex flex-column align-content-around justify-content-center">
+                            <p class="mt-4 Niveau text-center">Niveau</p>
+                            <div class="lineI mx-auto"></div>
+                        </div>
+                        <div class="pIII d-flex flex-column  align-items-center justify-content-end">
+                            <p class="mt-4 Salle">Salle</p>
+                            <div class="lineII"></div>
+                        </div>
+                    </div>
+                    <div class="contentCycle d-flex flex-column">
+                        <form action="" class="py-4 px-5 formCycle">
+                            <input type="text" id="yourCycle" class="form-control" name="yourCycle" placeholder="Entrer le Cycle">
+                        </form>
+                        <button class="btn buttonCycle mx-5">Ajouter</button>
+                        <form action="" class="formNiveau px-5">
+                            <div class="custom-select my-3" style="width:365px;">
+                                <select>
+                                    <option value="0">Séléctionner une Cycle</option>
+                                    <option value="1">Cycle 1</option>
+                                    <option value="2">Cycle 2</option>
+                                    <option value="3">Cycle 3</option>
+                                </select>
+                            </div>
+                            <input type="text" class="form-control my-4" name="yourNiveau" id="yourNiveau" placeholder="Entrer le niveau">
+                        </form>
+                        <button class="btn buttonNiveau mx-5">Ajouter</button>
+                        <form action="" class="formSalle px-5">
+                            <div class="custom-select my-3" style="width:365px;">
+                                <select>
+                                    <option value="0">Séléctionner le niveau</option>
+                                    <option value="1">6ème</option>
+                                    <option value="2">5ème</option>
+                                    <option value="3">4ème</option>
+                                </select>
+                            </div>
+                            <input type="text" class="form-control my-4" name="yourSalle" id="yourSalle" placeholder="Entrer la salle">
+                        </form>
+                        <button class="btn buttonSalle mx-5">Ajouter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./acceuil_parametre.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

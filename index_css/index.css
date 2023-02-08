@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "Antone";
+    src: url("../font/Antone\ DEMO.ttf");
+}
+@font-face {
+    font-family: "Axiforma Regular";
+    src: url("../font/FontsFree-Net-sddd4.ttf");
+}
+.login_page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.login_page .img1{
+    height: 100vh;
+    width: 40%;
+}
+.arriere_pic{
+    width: 40%;
+    height: 100vh;
+    background-size: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    left: 0%;
+}
+.contente_words{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Antone', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+.sub_heading{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: white;
+    width: 80%;
+}
+.formulaire{
+    width: 470px;
+    height: 100vh;
+}
+.connexion{
+    margin-top: 133px;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+}
+.nom{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.inpt_nom{
+    margin-top: 18px;
+    height: 48px;
+}
+.motpasse{
+    margin-top: 28px;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.inpt_pwd{
+    margin-top: 18px;
+    height: 48px;
+}
+.content_link{
+    margin-top: 18px;
+}
+.link1{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0278F9;
+}
+.link2{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0278F9;
+    margin-left: 32px;
+}
+.formulaire form button.bouton{
+    margin-top: 30px;
+    width: 30rem;
+    height: 71px;
+    background: linear-gradient(90.44deg, #083C75 -1.37%, #0175F4 99.92%);
+    border-radius: 8px;
+}
+.formulaire form button.bouton a.link3{
+    text-decoration: none;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+}
+img{
+width: 500px;
+height: 630px;
+}

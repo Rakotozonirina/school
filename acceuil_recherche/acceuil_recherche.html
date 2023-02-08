@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="photos/logo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="./acceuil_recherche.css">
+    <title>Profile</title>
+</head>
+<body class="d-flex justify-content-center">
+    <div class="container-fuild d-flex flex-row contenu">
+        <div class="container-fuild d-flex nav_bar position-fixed top-0 left-0">
+            <div class="container-fuild contenu_logo">
+                <img src="../photos/logo 1.png" alt="logo" class="logo">
+                <a href="../acceuil_parametre/acceuil_parametre.html"><img src="../photos/setting.png" alt="setting" width="28" height="29" class="setting"></a> 
+            </div>
+            <div class="container-fuild contenu_icons d-flex flex-wrap align-content-end">
+                <div class="container-fuild ecolage d-flex flex-column">
+                    <img src="../photos/Ecolage.png" alt="ecolage" width="28" height="29" class="mx-auto">
+                    <p class="text_ecolage text-center">Ecolage</p>
+                </div>
+                <div class="container-fuild bulletin d-flex flex-column">
+                    <img src="../photos/Note.png" alt="list" width="28" height="29" class="mx-auto">
+                    <p class="text_bulletin text-center">List</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fuild contentPhoto">
+            <div class="photo1">
+                <form>
+                    <div class="container-fuild contenu_recherche_aide d-flex align-items-center justify-content-between">
+                        <div class="container-fuild recherche d-flex align-items-center ms-3">
+                            <img src="../photos/bx_search.svg" alt="search" class="position-absolute top-20 ps-5">
+                            <input type="search" name="recherche" id="recherche" placeholder="SG-22-001">
+                        </div>
+                        <div class="container-fuild contenu_aide d-flex justify-content-evenly align-items-center me-4">
+                            <div class="d-flex contentCercle">
+                                <img src="../photos/aide.png" alt="aide" class="cercle">
+                                <p class="text_aide">Aides</p>
+                            </div>
+                            <a href="../index.html"><img src="../photos/deconnecter.png" alt="deconnecter" class="deconnecter"></a> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container-fuild contentImformation d-flex justify-content-between">
+                <div class="contentArrow">
+                    <a href="../acceuil/acceuil.html"><img src="../photos/left arrow.png" alt="arrow"></a>
+                </div>
+                <div class="contentProfile d-flex justify-content-around align-items-center position-relative">
+                    <img src="../photos/profile.png" alt="profile">
+                    <img src="../photos/camera.png" alt="camera" class="camera">
+                    <div class="contentNames d-flex align-items-center">
+                        <p>ANDRIANATENAINA <br> Murella Natenaina </p>
+                    </div>
+                </div>
+                <div class="contentDelete d-flex me-4">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <img src="../photos/case.png" alt="case">
+                        <img src="../photos/pencile.png" alt="pencile" class="pen">
+                        <img src="../photos/supprimer.png" alt="supprimer" width="25" height="25">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fuild contentInforms d-flex align-items-center justify-content-around">
+                <div class="apropos d-flex flex-wrap align-content-center">
+                    <div class="textApropos my-2">
+                        <p class="ms-5">A propos</p>
+                    </div>
+                    <div class="listApropos">
+                        <ul class="ps-5">
+                            <li class="ms-5">
+                                <p class="heading">Date de naissance</p>
+                                <p class="txt">30-06-2004</p>
+                            </li>
+                            <li class="ms-5">
+                                <p class="heading">Lieu de naissance</p>
+                                <p class="txt">Mahabibo,Mahajanga</p>
+                            </li>
+                            <li class="ms-5">
+                                <p class="heading">Adresse : </p>
+                                <p class="txt">01013V004 Mangarivotra,Mahajanga</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="matricule d-flex justify-content-center align-items-center">
+                    <ul>
+                        <li>
+                            <p class="heading">N<sup>o</sup> matricule</p>
+                            <p class="txt">SG-22-001</p>
+                        </li>
+                        <li>
+                            <p class="heading">Niveau</p>
+                            <p class="txt">Términal</p>
+                        </li>
+                        <li>
+                            <p class="heading">Salle</p>
+                            <p class="txt">TD3</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

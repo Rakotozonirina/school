@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "Antone";
+    src: url("../font/Antone\ DEMO.ttf");
+}
+@font-face {
+    font-family: "Axiforma Regular";
+    src: url("../font/FontsFree-Net-sddd4.ttf");
+}
+.login_page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.login_page .img1{
+    height: 100vh;
+    width: 40%;
+}
+.arriere_pic{
+    width: 40%;
+    height: 100vh;
+    background-size: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    left: 0%;
+}
+.contente_words{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Antone', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+.sub_heading{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: white;
+    width: 80%;
+}
+form{
+    width: 90%;
+}
+.formulaire{
+    width: 470px;
+    height: 100vh;
+}
+.inscription{
+    width: 100%;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+}
+.nom{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.inpt_nom{
+    margin-top: 8px;
+    height: 48px;
+}
+.motpasse{
+    margin-top: 28px;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.inpt_pwd{
+    margin-top: 8px;
+    height: 48px;
+}
+.comfirMotpasse{
+    margin-top: 28px;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.inpt_comfirmpwd{
+    margin-top: 8px;
+    height: 48px;
+}
+.codeAcces{
+    margin-top: 28px;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.inpt_codeAcces{
+    margin-top: 8px;
+    height: 48px;
+}
+.formulaire form button.bouton{
+    margin-top: 30px;
+    width: 26.5rem;
+    height: 71px;
+    background: linear-gradient(90.44deg, #083C75 -1.37%, #0175F4 99.92%);
+    border-radius: 8px;
+    border: none;
+}
+.formulaire form button.bouton .link3{
+    text-decoration: none;
+    color: white;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.link3:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+img{
+width: 500px;
+height: 630px;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow:inset 0 0 6px rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "Antone";
+    src: url("../font/Antone\ DEMO.ttf");
+}
+@font-face {
+    font-family: "Axiforma Regular";
+    src: url("../font/FontsFree-Net-sddd4.ttf");
+}
+.contenu{
+    width: 1366px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.nav_bar{
+    width: 200px;
+    height: 660px;
+    border: 2px solid #BBBBBB;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+}
+.contenu_logo{
+    width: 170px;
+    height: 660px;
+    position: relative;
+}
+.logo{
+    cursor:pointer;
+    width: 100%;
+}
+.contenu_icons .ecolage{
+    width: 100%;
+}
+.contenu_icons .bulletin{
+    width: 100%;
+}
+.text_ecolage{
+    color:  #BBBBBB;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+    font-style: normal;
+}
+.text_bulletin{
+    color:  #BBBBBB;
+    font-family: 'Axiforma Regular', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+    font-style: normal;
+}
+.contentPhoto{
+    position: relative;
+    left:14.5%;
+}
+.photo1{
+    background-image: url('../photos/background_image.png');
+    width: 1164px;
+    height: 120px;
+}
+.contentPhoto .contentImformation{
+    width: 1110px;
+    height: 100px;
+    background: #ffffff;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    position: absolute;
+    top: 9%;
+    left: 1.9%;
+}
+.contentPhoto .contentImformation .contentArrow{
+    width: 4%;
+    height: 100px;
+    margin-left: 1%;
+}
+.cercle{
+    width: 24px;
+    height: 24px;
+    border: 2px solid #035CBD;
+    padding: 5px;
+    border-radius: 50%;
+}
+.text_aide{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+}
+a .deconnecter{
+    width: 24px;
+    height: 24px;
+}
+.contenu_aide{
+    width: 140px;
+    height: 48px;
+    right: 0;
+    top: 40%;
+}
+.contenu_aide .contentCercle{
+    height: 28px;
+}
+.contenu_recherche_aide{
+    position: relative;
+    height: 60px;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow:inset 0 0 6px rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+}
+.contentPhoto .contentImformation p{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    background: linear-gradient(90.44deg, #083C75 -1.37%, #0175F4 99.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.contentPhoto .contentImformation .vide{
+    width: 100px;
+    height: 100px;
+}
+.contentInforms{
+    height: 540px;
+}
+.contentInforms p.motherP{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FCA64E;
+    width: 100%;
+    height: 140px;
+    padding-top: 70px;
+}
+.contentPhoto .contentInforms .contentInsertion{
+    width: 689px;
+    height: 300px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+.contentPhoto .contentInforms .contentInsertion .contentHeadingInsertion{
+    width: 100%;
+    height: 80px;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pI {
+    width: 33.33%;
+    height: 70px;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pI p.Cycle{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    cursor: pointer;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pI div.line{
+    width: 40px;
+    height: 3px;
+    background-color: #000000;
+    display: block;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pII {
+    width: 33.33%;
+    height: 70px;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pII p.Niveau{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pII div.lineI{
+    width: 40px;
+    height: 3px;
+    background-color: #000000;
+    display: none;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pIII {
+    width: 33.33%;
+    height: 70px;
+}
+.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pIII p.Salle{
+    font-family: 'Axiforma Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #BBBBBB;
+    margin-left: 140px;
+    cursor: pointer;
+}.contentPhoto .contentInforms .contentInsertion div.contentHeadingInsertion div.pIII div.lineII{
+    width: 40px;
+    height: 3px;
+    background-color: #000000;
+    margin-left: 140px;
+    display: none;
+}
+
+.contentPhoto .contentInforms .contentInsertion .contentCycle{
+    width: 100%;
+    height: 220px;
+    position:relative;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle .formCycle #yourCycle{
+    width: 365px;
+    height: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border-style: none;
+    display: block;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle button.buttonCycle{
+    width: 144px;
+    height: 47px;
+    background: linear-gradient(90.44deg, #083C75 -1.37%, #0175F4 99.92%);
+    border-radius: 8px;
+    color: #fff;
+    border-style: none;
+    display: block;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle .formNiveau{
+    height: 140px;
+    position: absolute;
+    display: none;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle form #yourNiveau{
+    width: 365px;
+    height: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border-style: none;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle button.buttonNiveau{
+    width: 144px;
+    height: 47px;
+    background: linear-gradient(90.44deg, #083C75 -1.37%, #0175F4 99.92%);
+    border-radius: 8px;
+    color: #fff;
+    border-style: none;
+    position: absolute;
+    top: 68%;
+    display: none;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle .formSalle{
+    height: 140px;
+    position: absolute;
+    display: none;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle form #yourSalle{
+    width: 365px;
+    height: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border-style: none;
+}
+.contentPhoto .contentInforms .contentInsertion .contentCycle button.buttonSalle{
+    width: 144px;
+    height: 47px;
+    background: linear-gradient(90.44deg, #083C75 -1.37%, #0175F4 99.92%);
+    border-radius: 8px;
+    color: #fff;
+    border-style: none;
+    position: absolute;
+    top: 68%;
+    display: none;
+}
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+    background-color:/* DodgerBlue*/ transparent;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    font-family: 'Axiforma Regular', sans-serif;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #000 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #000 transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+    color: #000;
+    padding: 8px 18px;
+    /*border: 1px solid transparent;*/
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background: rgba(187, 187, 187, 0.1);
+    border-radius: 8px;
+    top: 100%;
+    left: 45%;
+    right: 45%;
+    z-index: 99;
+    width: 200px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
